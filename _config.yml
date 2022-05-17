@@ -20,9 +20,11 @@ description: 'Community Archiving Site'
 author: IDAH@IU
 authorname : Institute for Digital Arts and Humanities
 email : idah [at] iu.edu
+website : https://idah.indiana.edu/
 twitter : IDAH_IU
 github : idahatiu
-sitelogo: site_logo.jpg
+facebook : idahatiu
+instagram : 
 
 # FONTS AND COLORS
 # Uncomment the fonts you like here
@@ -43,6 +45,7 @@ collections:
     itemgroupid: true
     itemgroupname: true
     itemid: true
+    itemnarrative: true
 # If your collection items need to be grouped by person, family or some other group, uncomment this collection
 #  groups:
 #    output: true
@@ -61,7 +64,7 @@ collections:
 # This URL is the main address for absolute links. Don't include a slash at the end.
 # If you're installing this inside another site, use the baseurl to add a folder name.
 url: ''
-baseurl: ''
+baseurl: 'communityarchive/'
 
 # This URL points directly to the images directory making
 # things easier to link to images in posts and templates. It needs a slash at the end.
