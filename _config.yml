@@ -22,14 +22,15 @@ authorname : Institute for Digital Arts and Humanities
 email : idah [at] iu.edu
 twitter : IDAH_IU
 github : idahatiu
+sitelogo: site_logo.jpg
 
 # FONTS AND COLORS
 # Uncomment the fonts you like here
-font: quattrocento # This uses Quattrocento Sans for headlines and body and Halant as an accent font
+fontchoice: quattrocento # This uses Quattrocento Sans for headlines and body and Halant as an accent font
 #font: roboto # This uses Roboto for headlines and the body and Roboto Sans as an accent font
 
 # Uncomment the colors you like here
-color: quattrocento # This uses Quattrocento Sans for headlines and body and Halant as an accent font
+colorchoice: navy # This uses Quattrocento Sans for headlines and body and Halant as an accent font
 
 # FOLDER AND FILE ORGANIZATION
 # These collections take the basic files you put together for each item in your collection and auto-group and display them.

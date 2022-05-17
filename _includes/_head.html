@@ -21,8 +21,8 @@ favicon
     <link rel="stylesheet" href="/assets/css/foundation.css">
     <link rel="stylesheet" href="/assets/css/app.css">
 
-    <link rel="stylesheet" href="/assets/css/{% if site.fontchoice != empty%}{{ site.fontchoice }}{%else%}quattrocento{%endif%}.css">
-    <link rel="stylesheet" href="/assets/css/{% if site.fontchoice != empty%}{{ site.fontcolors }}{%else%}navy{%endif%}.css">
+    <link rel="stylesheet" href="/assets/css/{% if site.fontchoice == blank%}quattrocento{%else%}{{ site.fontchoice }}{%endif%}.css">
+    <link rel="stylesheet" href="/assets/css/{% if site.colorchoice == blank%}navy{%else%}{{ site.colorchoice }}{%endif%}.css">
     <script src="https://kit.fontawesome.com/3f7330d0fa.js" crossorigin="anonymous"></script>
 
 <!--
