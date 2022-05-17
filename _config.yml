@@ -1,5 +1,5 @@
 # THEME
-theme: community-archive
+#theme: community-archive
 title: "IDAH@IU"
 description: "A Github Pages example site"
 author: "the IDAH team at IUB"
@@ -82,8 +82,8 @@ exclude :
     - INSTALL.md
 include: ['_pages']
 
-plugins:
-  - jekyll-seo-tag
+#plugins:
+#  - jekyll-seo-tag
 
 # google_analytics_tracking_id: 
 # google_g4_analytics_id: 
