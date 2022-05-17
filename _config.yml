@@ -1,0 +1,90 @@
+# THEME
+theme: community-archive
+title: "IDAH@IU"
+description: "A Github Pages example site"
+author: "the IDAH team at IUB"
+
+# ABOUT THIS SITE
+# Title of your website
+title: 'IDAH@IU'
+
+# Title of your website
+subtitle: 'Community Archiving Site'
+
+# Maximum of 150 characters for SEO-purposes.
+description: 'Community Archiving Site'
+
+# The credits show up in the includes/_footer.html
+# Main author of the website
+
+author: IDAH@IU
+authorname : Institute for Digital Arts and Humanities
+email : idah [at] iu.edu
+twitter : IDAH_IU
+github : idahatiu
+
+# FONTS AND COLORS
+# Uncomment the fonts you like here
+font: quattrocento # This uses Quattrocento Sans for headlines and body and Halant as an accent font
+#font: roboto # This uses Roboto for headlines and the body and Roboto Sans as an accent font
+
+# Uncomment the colors you like here
+color: quattrocento # This uses Quattrocento Sans for headlines and body and Halant as an accent font
+
+# FOLDER AND FILE ORGANIZATION
+# These collections take the basic files you put together for each item in your collection and auto-group and display them.
+collections:
+# This takes each item in your archive collection and displays it
+  items:
+    output: true
+    permalink: /:collection/:path:output_ext
+    itemdescendant: true
+    itemgroupid: true
+    itemgroupname: true
+    itemid: true
+# If your collection items need to be grouped by person, family or some other group, uncomment this collection
+#  groups:
+#    output: true
+#    permalink: /:collection/:path:output_ext
+#    name: true
+#    folder: true
+#    sort_by: folder
+# If you have oral histories that go with the groups, uncomment this collection. If each individual item has an oral history with it, go to the _includes folder and look for the line "<!--OralHistory-->"". Take out the <!-- and --> in the lines following that through ""<!--EndOralHistory-->"
+#  oralhistories:
+#    output: true
+#    permalink: /:collection/:path:output_ext
+#    name: true
+#    folder: true
+#    sort_by: folder
+
+# This URL is the main address for absolute links. Don't include a slash at the end.
+# If you're installing this inside another site, use the baseurl to add a folder name.
+url: ''
+baseurl: ''
+
+# This URL points directly to the images directory making
+# things easier to link to images in posts and templates. It needs a slash at the end.
+#
+# Example: <img src="{{ site.url }}{{ site.baseurl }}{{ site.urlimg }}{{ post.image.title }}" />
+# Markdown-Example for posts ![Image Text]({{ site.url }}{{ site.baseurl }}{{ site.urlimg }}image.jpg)
+#
+urlimg: '/assets/img/'
+permalink:   /:categories/:title/
+
+year : 2022
+markdown : kramdown
+exclude :
+    - Gemfile
+    - Gemfile.lock
+    - LICENSE
+    - README.md
+    - pages/PagesOld
+    - INSTALL.md
+include: ['_pages']
+
+plugins:
+  - jekyll-seo-tag
+
+# google_analytics_tracking_id: 
+# google_g4_analytics_id: 
+

@@ -1,0 +1,47 @@
+<!--
+itemid: 15h_5
+itemdescendant: jett
+itemgroupid: 15h
+itemgroupname: Women's cape (black and floral material)
+itemname: 5
+itemtype: physical object
+shortdesc: 
+categories: [  ]
+tags: [  ]
+-->
+<!-- begin post -->
+
+{% if item.itemgroupid %}{% assign thumbnail = item.itemgroupid %}{% else %}{% assign thumbnail = item.itemid %}{% endif% %}
+{% if item.itemgroupname %}{% assign itemtitle = item.itemgroupname %}{% else %}{% assign itemtitle = item.itemname %}{% endif% %}
+
+{% assign contributor = site.descendants | where: "folder", item.itemdescendant  | first %}
+{% capture ItemImagePath %}assets/collections/{{ item.itemdescendant }}/{{ thumbnail }}_th{% endcapture %}
+{% for static_file in site.static_files %}
+{% if static_file.path contains ItemImagePath %}
+<div class="col-lg-4 col-md-6 mb-30px card-group">
+    <div class="card">
+        <div class="maxthumb">
+            <a href="{{ site.baseurl }}{{ item.url }}">
+						<img class="img-fluid" src="{{ site.baseurl }}{{ static_file.path }}" alt="{{ item.itemgroupname }}">
+            </a>
+        </div>
+        <div class="card-body">
+            <h2 class="card-title">
+                <a href="{{ site.baseurl }}{{ item.url }}">{{ itemtitle }}</a>
+            </h2>
+                {% if contributor.title %}</a>
+                <p class="card-text">from the collection of <a href="{{ contributor.url }}">{{ contributor.title }}</a></p>            
+                {% endif %}
+        </div>
+        <div class="card-footer bg-white">
+            <div class="wrapfooter">
+                <span class="author-meta">
+                </span>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endif %}
+{% endfor %}
+<!-- end post -->

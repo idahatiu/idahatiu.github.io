@@ -1,0 +1,39 @@
+/** =================================
+Base font settings
+================================= **/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600&family=Roboto+Mono&family==Roboto+Slab:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+
+	body {
+		font-family: 'Roboto', Helvetica, Roboto, Arial, sans-serif;
+	}
+	pre {
+		font-family: "Roboto Mono", Courier, monospace;
+	}
+	
+/** == Header styling **/
+
+	h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+		font-family: "Roboto Slab", Garamond, serif;
+	}
+
+	.serif {
+		font-family: "Roboto Slab", Garamond, serif;
+	}
+
+	.sans, .subheadline {
+		font-family: 'Roboto', Helvetica, Roboto, Arial, sans-serif;
+	}
+
+/** =================================
+Nav and Menu Elements
+================================= **/
+
+/** == Top Nav **/
+
+	.top-bar, .top-bar ul {
+		font-family: 'Roboto', Helvetica, Roboto, Arial, sans-serif;
+	}
+

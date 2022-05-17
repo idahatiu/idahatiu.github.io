@@ -1,0 +1,126 @@
+/** =================================
+Base font settings
+================================= **/
+
+/** == Colors
+
+<palette>
+  <color name="Cultured" hex="f6f6f4" r="246" g="246" b="244" />
+  <color name="Alabaster" hex="e4e4dd" r="228" g="228" b="221" />
+  <color name="Artichoke" hex="a5a58d" r="165" g="165" b="141" />
+  <color name="Black Olive" hex="404337" r="64" g="67" b="55" />
+  <color name="Outer Space Crayola" hex="1a373b" r="26" g="55" b="59" />
+  <color name="Space Cadet Navy" hex="121331" r="18" g="19" b="49" />
+</palette>
+
+**/
+
+	body, td {
+		color: #121331;
+	}
+	a {
+		color: #335F70;
+		font-weight:600;
+	}
+
+	a:hover, a:focus {
+		color: #0c0d3b;
+	}
+
+	.navy {
+	  background-color: #121331;
+	  color: #e4e4dd;
+	}
+
+	.navy a {
+		color: #ffffff;
+	}
+
+	.navy a:hover, .teal a:focus {
+		color: #a5a58d;
+	}
+
+	.teal {
+	  background-color: #1a373b;
+	  color: #e4e4dd;
+	}
+
+	.teal a {
+		color: #e4e4dd;
+	}
+
+	.teal a:hover, .teal a:focus {
+		color: #a5a58d;
+	}
+
+	.artichoke {
+	  background-color: #a5a58d;
+	  color: #121331;
+	}
+
+	.artichoke a {
+		color: #1a373b;
+	}
+
+	.artichoke a:hover, .artichoke a:focus {
+		color: #e4e4dd;
+	}
+
+	.alabaster {
+	  background-color: #e4e4dd;
+	  color: #121331;
+	}
+
+	.menu-hover-lines a:before {
+	  background-color: #ffffff;
+	}
+
+/** =================================
+Base font settings
+================================= **/
+
+	.subheadline {
+		color: #1a373b;
+	}
+
+	.subheadline:after,.subheadline:before {
+		border-bottom: #a5a58d;
+	}
+
+/** =================================
+Nav and Menu Elements
+================================= **/
+
+/** == Top Nav **/
+
+	.top-bar, .top-bar ul {
+		background-color: #1a373b;
+	}
+
+/** =================================
+Typographic & Design Elements
+================================= **/
+
+	.card-select .card-divider {
+	  background-color: #f6f6f4;
+	  border: #cacaca;
+	}
+
+/** == Stacked Table **/
+
+	tbody tr:nth-child(even) {
+		background-color: #f6f6f4;
+	}
+	thead {
+		background: #e4e4dd;
+		color: #0a0a0a;
+	}
+
+
+/** =================================
+Footer
+================================= **/
+
+	.blogpost-footer-actions {
+	  border-bottom: #cacaca;
+	}
