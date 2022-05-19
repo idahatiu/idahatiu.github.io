@@ -45,6 +45,7 @@ google_g4_analytics_id:
 fontchoice: quattrocento # A modern sans-serif font with classic serif accents
 #fontchoice: roboto # A clean san-serif font with simple serif accents
 #fontchoice: slab # A funky slab font with clean sans-serif accents
+#fontchoice: source # A modern serif font with clean sans-serif accents
 
 # Choose the colors you'd like to use.
 
