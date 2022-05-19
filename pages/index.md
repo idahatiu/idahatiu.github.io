@@ -1,18 +1,13 @@
 ---
-#
-# Use the widgets beneath and the content will be
-# inserted automagically in the webpage. To make
-# this work, you have to use › layout: frontpage
-#
 title: IDAH Community Archiving Template
 layout: homepage
-permalink: /communityarchive/index.html
+permalink: /
 ---
 
-<div class="teal">
+<div class="darkbg">
 <div class="grid-container">
 <h4 class="center">{{ site.subtitle }}</h4>
-<h1 class="center subheadline" style="color: #e4e4dd; padding-bottom: .5em;">{{ site.title }}</h1>
+<h1 class="center siteheader subheadline">{{ site.title }}</h1>
 </div>
 </div>
 
@@ -30,7 +25,7 @@ The [IDAH@IU team](https://idah.indiana.edu) often gets requests from faculty, s
 ![alt text]({{ site.baseurl }}{{ site.urlimg }}{{ site.sitelogo }}){:class="profilephoto"}
 
 <div class="address">
-  	<hr><p style="text-align:center"><em>{{ site.email }}</em></p><hr>
+  	<hr><p style="text-align:center">{% if site.email != blank%}<em>{{ site.email }}</em>{%endif%}</p><hr>
 </div>
 
 </div>

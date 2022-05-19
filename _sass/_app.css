@@ -1,10 +1,13 @@
 /** =================================
-Base font settings
+Base settings
 ================================= **/
 
 	body {
+		font-family: $body-font;
 		font-size: 1.15em;
 		line-height:1.15em;
+		color: $main-text-color;
+		background-color: $main-bg;
 	}
 	@media screen and (max-width: 39.9375em) {
 		body {
@@ -17,12 +20,58 @@ Base font settings
 		  font-size: 12pt;
 		}
 	}
+	pre {
+		font-family: $pre-font;
+	}
 	
 	a[href]:after {
     content: ""; }
 
+	a {
+		color: $main-link;
+		font-weight:600;
+	}
 
+	a:hover, a:focus {
+		color: $main-link-hover;
+	}
+
+	.darkbg{
+	  background-color: $dark-bg;
+	  color: $dark-text-color;
+	}
+
+	.darkbg a {
+		color: $dark-link;
+	}
+
+	.darkbg a:hover, .accentbg a:focus {
+		color: $dark-link-hover;
+	}
+
+	.accentbg{
+	  background-color: $accent-bg;
+	  color: $accent-text-color;
+	}
+
+	.accentbg a {
+		color: $accent-link;
+	}
+
+	.accentbg a:hover, .accentbg a:focus {
+		color: $accent-link-hover;
+	}
+
+	.menu-hover-lines a:before {
+	  background-color: $dark-headers;
+	}
+	
 /** == Header styling **/
+
+	h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+		font-family: $headline-font;
+		color: $main-headers;
+	}
 
 	h1, .h1 {
 		text-transform: uppercase;
@@ -32,6 +81,24 @@ Base font settings
 		font-family: "Font Awesome 5 Free";
 		padding: 0 3px 0 3px;
 		display:inline-block;
+	}
+
+	.serif {
+		font-family: $headline-font;
+	}
+
+	.sans, .subheadline {
+		font-family: $body-font;
+		color: $main-headers;
+	}
+
+	.subheadline:after,.subheadline:before {
+		border-bottom: $accent-link-hover;
+	}
+
+	.subheadline.siteheader {
+		color: $main-link;
+		padding-bottom: .5em;
 	}
 
 	@media screen and (min-width: 40em) {
@@ -90,7 +157,7 @@ Base font settings
 	.subheadline:after,.subheadline:before {
 		content: " ";
 		display: block;
-		border-bottom: 1px solid;
+		border-bottom: 1px solid $dark-headers;
 	}
 
 	.CV {
@@ -102,17 +169,14 @@ Base font settings
 		margin-bottom:0px;
 	}
 
-
-
 /** =================================
 Nav and Menu Elements
 ================================= **/
 
-/** == Top Nav **/
-
 	.top-bar, .top-bar ul {
-		font-family: 'Quattrocento Sans', Helvetica, Roboto, Arial, sans-serif;
+		font-family: $body-font;
 		text-transform: uppercase;
+		background-color: $dark-bg;
 	}
 
 	@media screen and (min-width: 40em) {
@@ -209,23 +273,6 @@ Nav and Menu Elements
 	  width: 100%;
 	}
 
-/** == Sidebar **/
-
-	.sidebar {
-		background: $light-gray;
-		border-radius: 5px;
-		padding: 10px;
-		font-size: 85%;	
-	  @include breakpoint(large up) {
-		  position: -webkit-sticky;
-		  position: sticky;
-		  top: 10px;
-	//	position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-	//	z-index: 1; /* Stay on top */
-	//	top: 175px; /* Stay at the top */
-	  }
-	}
-
 /** =================================
 Typographic & Design Elements
 ================================= **/
@@ -265,10 +312,11 @@ Typographic & Design Elements
 	}
 
 	.card-select .card-divider {
+	  background-color: #f6f6f4;
 	  letter-spacing: 1px;
 	  font-weight: 500;
 	  text-transform: uppercase;
-	  border: 1px solid;
+	  border: 1px solid #cacaca;
 	}
 
 /** == Image Styling **/
@@ -286,6 +334,11 @@ Typographic & Design Elements
 
 	tbody tr:nth-child(even) {
 		border-bottom: 0;
+		background-color: #f6f6f4;
+	}
+	thead {
+		background: #e4e4dd;
+		color: #0a0a0a;
 	}
 
 /** == Icons **/
@@ -330,6 +383,57 @@ Typographic & Design Elements
 		padding-left: 2px;
 	}
 
+/** =================================
+ItemBox
+================================= **/
+
+
+.card {
+  background-color: $main-bg;
+  border: 1px solid $dark-bg;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.card-thumbnail {
+  display: block;
+  position: relative;
+}
+
+.card-desc {
+  color: $accent-text-color;
+  display: block;
+  font-family: $body-font;
+  font-size: 0.85rem;
+}
+
+.card-price {
+  color: $main-text-color;
+  display: inline-block;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-top: 0.8rem;
+}
+
+.card-sale {
+  color: #cacaca;
+  display: inline-block;
+  font-size: 0.85rem;
+  margin-left: 0.3rem;
+  text-decoration: line-through;
+}
+
+.card-colors {
+  display: block;
+  margin-top: 0.8rem;
+}
+
+.card-color-option {
+  display: inline-block;
+  height: 25px;
+  width: 25px;
+}
+
 
 /** =================================
 Footer
@@ -346,7 +450,7 @@ Footer
 		  -ms-flex-pack: justify;
 			  justify-content: space-between;
 	  font-size: 1.8125rem;
-	  border-bottom: 1px solid;
+	  border-bottom: 1px solid #cacaca;
 	  padding: 1rem;
 	}
 

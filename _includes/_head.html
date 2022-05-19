@@ -18,13 +18,10 @@ favicon
 ==================================================
  CSS
 ================================================== -->
-    <link rel="stylesheet" href="/assets/css/foundation.css">
-    <link rel="stylesheet" href="/assets/css/app.css">
-
-    <link rel="stylesheet" href="/assets/css/{% if site.fontchoice == blank%}quattrocento{%else%}{{ site.fontchoice }}{%endif%}.css">
-    <link rel="stylesheet" href="/assets/css/{% if site.colorchoice == blank%}navy{%else%}{{ site.colorchoice }}{%endif%}.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
     <script src="https://kit.fontawesome.com/3f7330d0fa.js" crossorigin="anonymous"></script>
 
+{% if site.google_g4_analytics_id != empty %}
 <!--
 ==================================================
 Google analytics G4
@@ -38,6 +35,7 @@ Google analytics G4
 		  gtag('config', '{{ site.google_g4_analytics_id }}');
 		</script>
 
+{% endif %}
 <!--
 ==================================================
 Jekyll SEO Tag

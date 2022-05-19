@@ -1,10 +1,15 @@
+#---------------------
 # THEME
+#---------------------
 #theme: community-archive
 title: "IDAH@IU"
 description: "A Github Pages example site"
 author: "the IDAH team at IUB"
 
-# ABOUT THIS SITE
+#---------------------
+# ABOUT YOUR SITE
+#---------------------
+
 # Title of your website
 title: 'IDAH@IU'
 
@@ -16,9 +21,11 @@ description: 'Community Archiving Site'
 
 # The credits show up in the includes/_footer.html
 # Main author of the website
-
 author: IDAH@IU
 authorname : Institute for Digital Arts and Humanities
+sitelogo: site_logo.jpg
+
+# Other community social media 
 email : idah [at] iu.edu
 website : https://idah.indiana.edu/
 twitter : IDAH_IU
@@ -26,22 +33,53 @@ github : idahatiu
 facebook : idahatiu
 instagram : 
 
+# Google Tracking
+google_analytics_tracking_id: 
+google_g4_analytics_id: 
+
+#---------------------
 # FONTS AND COLORS
-# Uncomment the fonts you like here
-fontchoice: quattrocento # This uses Quattrocento Sans for headlines and body and Halant as an accent font
-#font: roboto # This uses Roboto for headlines and the body and Roboto Sans as an accent font
+#---------------------
+# Choose the fonts you'd like to use. The line with the selected font should not have a "#" in front of it. The lines with other font choices should be commented out, or start with a "#"
 
-# Uncomment the colors you like here
-colorchoice: navy # This uses Quattrocento Sans for headlines and body and Halant as an accent font
+fontchoice: quattrocento # A modern sans-serif font with classic serif accents
+#fontchoice: roboto # A clean san-serif font with simple serif accents
+#fontchoice: slab # A funky slab font with clean sans-serif accents
 
-# FOLDER AND FILE ORGANIZATION
+# Choose the colors you'd like to use.
+
+colorchoice: navy # Navy with bright teal and grey
+#colorchoice: brown # Tan browns and bright greens
+#colorchoice: orange # Deep browns with flame-bright orange
+#colorchoice: teal # Bright teal with bright orange-yellow accents
+
+#---------------------
+# DESCRIBING YOUR COLLECTION
+#---------------------
+# Some community archives use different words to describe their community members. We've included default language here, along with some suggestions.
+
+# The collection of items built by the community can have lots of different names. Options include: archive, community archive, collection, compilation
+vocabcollection: collection
+
+# Objects are the individual items that form a collection. Options include: item, object, heirloom, contribution
+vocabobject: object
+
+# A contributor is the person who contributed an object. Options include: person, contributor, community member, descendant
+vocabcontributor: contributor
+
+# A group helps organize individual contributors into related sections. Options include: group, family, related items
+vocabgroup: group
+
+#---------------------
+# ORGANIZING YOUR COLLECTION
+#---------------------
 # These collections take the basic files you put together for each item in your collection and auto-group and display them.
 collections:
 # This takes each item in your archive collection and displays it
   items:
     output: true
     permalink: /:collection/:path:output_ext
-    itemdescendant: true
+    itemcontributor: true
     itemgroupid: true
     itemgroupname: true
     itemid: true
@@ -53,7 +91,7 @@ collections:
 #    name: true
 #    folder: true
 #    sort_by: folder
-# If you have oral histories that go with the groups, uncomment this collection. If each individual item has an oral history with it, go to the _includes folder and look for the line "<!--OralHistory-->"". Take out the <!-- and --> in the lines following that through ""<!--EndOralHistory-->"
+# If you have oral histories that go with groups, uncomment this collection:
 #  oralhistories:
 #    output: true
 #    permalink: /:collection/:path:output_ext
@@ -61,10 +99,14 @@ collections:
 #    folder: true
 #    sort_by: folder
 
+#---------------------
+# NERDY WEBSITE ORGANIZATION STUFF
+#---------------------
+# MOST OF THESE THINGS DONT' NEED TO BE CHANGED.
 # This URL is the main address for absolute links. Don't include a slash at the end.
 # If you're installing this inside another site, use the baseurl to add a folder name.
 url: ''
-baseurl: 'communityarchive/'
+baseurl: ''
 
 # This URL points directly to the images directory making
 # things easier to link to images in posts and templates. It needs a slash at the end.
@@ -89,6 +131,5 @@ include: ['_pages']
 #plugins:
 #  - jekyll-seo-tag
 
-# google_analytics_tracking_id: 
-# google_g4_analytics_id: 
-
+sass:
+    sass_dir: _sass
