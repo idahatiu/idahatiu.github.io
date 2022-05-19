@@ -9,4 +9,4 @@ Each item in the collection has an item ID (community assigned, no spaces or pun
 - The `_items` folder contains one `.md` file for each item in the community-archive collection. These "markdown" files contain information in text form that the community-archive template uses to build a web page for each individual item, drawing in photos and transcripts from the other two file locations.
 - The `/assets/items/` folder contains images named for each item (e.g. `0001_01.jpg` and `0001_02.jpg` would display 2 photos for item 0001)
 
-For more information about this templating system, visit the [documentation page](/documentation/)
+For more information about this templating system, visit the [documentation page](https://idahatiu.github.io/documentation/)
