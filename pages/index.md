@@ -15,7 +15,9 @@ permalink: /
 <div class="grid-x grid-padding-x align-middle">
 <div class="cell medium-8 align-right small-order-2 medium-order-1 large-order-1 align-middle" markdown="1" >
 
-The [IDAH@IU team](https://idah.indiana.edu) often gets requests from faculty, staff and students asking for advice on personal web sites. This repository provides a starting point for a basic personal web site using Github Pages
+<q class="pull-quote">Archives could and should go beyond the logics of possession, whether of physical or digital records, to prioritize human centered-values that position record creators not only as subjects, but as active agents in their own liberation.
+
+The [IDAH@IU team](https://idah.indiana.edu) often gets requests to support archiving projects. This repository provides a starting point, a template for using simple Github Pages, done in partnership with [ImaginX en Movimiento (IXeM)](https://www.instagram.com/ixemcollective/?hl=en) co-founded by Marisa Hicks-Alcaraz, the [Center for Research on Race, Ethnicity and Society](https://crres.indiana.edu), and the [Asian Culture Center](https://asianresource.indiana.edu) at Indiana University Bloomington.
 
 - [On our web site](https://idah.indiana.edu)
 - By email at idah at indiana.edu
@@ -31,17 +33,3 @@ The [IDAH@IU team](https://idah.indiana.edu) often gets requests from faculty, s
 </div>
 </div>
 </div>
-<!--
-CARD FEATURES
-<div class="alabaster">
-	<div class="grid-container">
-		<div class="grid-x grid-padding-x">
-		  <div class="cell small-12 flex-container flex-dir-column large-flex-dir-row">
-			<div class="callout primary flex-child-auto">Net.Create, a network analysis data-management and visualization tool, values the importance of interpretation, sourcing, and flexible taxonomy equally with network statistics; this emphasis balances humanities and network-analysis concerns for historians engaging in network analysis.</div>
-			<div class="callout primary flex-child-auto">Minimal-computing platforms for History Harvests and community archiving emphasize the historiographic value of equitable citation and labor practices and support broad access to digital-history projects.</div>
-			<div class="callout primary flex-child-shrink large-flex-child-auto">Auto on Large</div>
-		  </div>
-		</div>
-	</div>
-</div>
--->
