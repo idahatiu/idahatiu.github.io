@@ -326,45 +326,6 @@ Typographic & Design Elements
 	}
 /** == Image Styling **/
 
-	@media screen and (min-width: 63em) {
-		.article-image {
-			width: calc(100vw / 4);
-		}
-	}
-	@media screen and (max-width: 62.9775em) {
-		.article-image {
-			width: calc(100vw / 3);
-		}
-	}
-	@media screen and (max-width: 39.9775em) {
-		.article-image {
-			width: calc(100vw);
-		}
-	}
-
-	.square {
-		object-fit: cover;
-	}
-
-	@media screen and (min-width: 63em) {
-		.square {
-			width: calc(100vw);
-			height: calc((100vw / 5 );
-		}
-	}
-	@media screen and (max-width: 62.9775em) {
-		.square {
-			width: calc(100vw);
-			height: calc((100vw / 2.5 );
-		}
-	}
-	@media screen and (max-width: 39.9775em) {
-		.square {
-			width: calc(100vw);
-			height: calc((100vw / 1.25);
-		}
-	}
-
 
 
 /** == Stacked Table **/
