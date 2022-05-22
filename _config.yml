@@ -82,9 +82,12 @@ fontchoice: slab # A funky slab font with clean sans-serif accents
 # Uncomment the line for the color you like. Comment out all of the other lines.
 
 #colorchoice: navy # Navy with bright teal and grey
-colorchoice: brown # Tan browns and bright greens
-#colorchoice: orange # Deep browns with flame-bright orange
+#colorchoice: leafgreen # Leafy green and medium brown
+#colorchoice: tan # Tan and deep brown with flame-bright orange
 #colorchoice: teal # Bright teal with bright orange-yellow accents
+colorchoice: marigold # Near-black with marigold yellow
+#colorchoice: red # Black, crimson and grey
+#colorchoice: lavenderred # Purple-grey with orange-red
 #colorchoice: dusk # Dusky purple and olive green
 
 ##############################################
