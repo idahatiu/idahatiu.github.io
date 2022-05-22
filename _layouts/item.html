@@ -36,10 +36,6 @@ format: item
 
 {% if page.externalurl %}<p>Find out more at {{ page.externalurl }}{% endif %}
 
-{% if page.embedurl %}<p>EMBED ME {{ page.embedurl }}{% endif %}
-
-{% if page.format == "media" %}<p>{{ page.embedurl }}{% endif %}
-
 {% if page.teammember %}<p>Assistance collecting this object by {{ page.teammember }}</p>{% endif %}
 
 {{ content }}
