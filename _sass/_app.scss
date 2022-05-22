@@ -328,18 +328,22 @@ Typographic & Design Elements
 
 	@media screen and (min-width: 63em) {
 		.article-image {
-			width: 25%);
+			width: 25%;
 		}
 	}
 	@media screen and (max-width: 62.9775em) {
 		.article-image {
-			width: 33%);
+			width: 33%;
 		}
 	}
 	@media screen and (max-width: 39.9775em) {
 		.article-image {
 			width: 100%;
 		}
+	}
+
+	.square {
+		object-fit: cover;
 	}
 
 	@media screen and (min-width: 63em) {
