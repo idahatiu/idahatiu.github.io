@@ -1,10 +1,7 @@
 ---
 ---
 
-/* @import 'fonts/{% if site.fontchoice == blank%}quattrocento{%else%}{{ site.fontchoice }}{%endif%}';
-@import 'colors/{% if site.colorchoice == blank%}navy{%else%}{{ site.colorchoice }}{%endif%}'; */
-
-@import 'fonts/quattrocento';
-@import 'colors/tan';
+@import 'fonts/{% if site.fontchoice == blank%}quattrocento{%else%}{{ site.fontchoice }}{%endif%}';
+@import 'colors/{% if site.colorchoice == blank%}navy{%else%}{{ site.colorchoice }}{%endif%}';
 @import 'foundation';
 @import 'app';
