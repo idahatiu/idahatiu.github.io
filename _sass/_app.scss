@@ -368,11 +368,13 @@ Typographic & Design Elements
 @media print, screen and (min-width: 40em) {
   .pull-quote {
     font-size: 1.875rem;
+    max-width: calc(50% - 15%);
   }
 }
 
 @media print, screen and (min-width: 64em) {
   .pull-quote {
+    max-width: calc(50% + 5%);
   }
 }
 
