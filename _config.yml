@@ -1,6 +1,9 @@
-# THEME. Leave Lines 1-3 alone.
+##############################################
+# START YOUR CONFIGURATION HERE! For more info, visit http://community-archive.kalanicraig.com/quickstart
 #---------------------
-#remote-theme: community-archive
+# THEME. Leave Lines 4-6 alone.
+#---------------------
+remote-theme: community-archive-jekyll
 
 ##############################################
 # WHAT IS ALL THIS STUFF?
@@ -38,26 +41,29 @@
 #---------------------
 
 # Title of your website
-title: 'IDAH@IU'
+title: "IDAH@IU"
 
 # Subtitle of your website. Leave blank if you want to.
 subtitle: "An Archive of Our Community's Heirlooms"
 
 # A longer description of your site (max 150 words). Helps search engines find you.
-description: 'Community Archiving Site'
+description: "Community Archiving Site"
 
 # These credits show up in the includes/_footer.html
 # Main author of the website.
-author: IDAH@IU
-authorname : Institute for Digital Arts and Humanities
-sitelogo: site_logo.jpg
+author: "IDAH@IU"
+authorname : "Institute for Digital Arts and Humanities"
+sitelogo: "site_logo.jpg"
+
+# What year did you start up this community project?
+sitedate : 2022
 
 # Other community social media. Leave blank if you don't have these.
-email : idah [at] iu.edu
-website : https://idah.indiana.edu/
-twitter : IDAH_IU
-github : idahatiu
-facebook : idahatiu
+email : "idah [at] iu.edu"
+website : "https://idah.indiana.edu/"
+twitter : "IDAH_IU"
+github : "idahatiu"
+facebook : "idahatiu"
 instagram : 
 
 # If you need to know how many people visit your site, go to https://analytics.google.com/
@@ -72,8 +78,11 @@ google_g4_analytics_id:
 # You can see these font choices in action at https://kalanicraig.com/community-archive/docs/
 # Uncomment the line for the font you like. Comment out all of the other lines.
 
+#fontchoice: archivonarrow # A narrow sans-serif font for headlines and body text
+#fontchoice: baloo # A clean sans-serif font with a playful rounded sans-serif accent
 #fontchoice: quattrocento # A modern sans-serif font with classic serif accents
-#fontchoice: roboto # A clean san-serif font with simple serif accents
+#fontchoice: raleway # An elegant sans-serif font with bold sans-serif accents
+#fontchoice: roboto # A clean sans-serif font with simple serif accents
 fontchoice: slab # A funky slab font with clean sans-serif accents
 #fontchoice: source # A modern serif font with clean sans-serif accents
 
@@ -102,12 +111,6 @@ collections:
     contributor: true
     creator: true
     group: true
-  stories:
-    output: true
-    permalink: /:collection/:path:output_ext
-    contributor: true
-    creator: true
-    group: true
 # If your collection items need to be grouped by person, family or some other group, uncomment this collection
 #  groups:
 #    output: true
@@ -122,13 +125,15 @@ collections:
 #    name: true
 #    folder: true
 #    sort_by: folder
+  authors:
+    output: false
+    name: true
 
 ##############################################
 # WEBSITE ORGANIZATION
 #---------------------
 # MOST OF THESE THINGS DON'T NEED TO BE CHANGED.
 ##############################################
-
 
 # This URL is the main address for absolute links. This will usually be blank.
 url: ''
@@ -141,22 +146,27 @@ baseurl: ''
 # Markdown-Example for posts ![Image Text]({{ site.url }}{{ site.baseurl }}{{ site.urlimg }}image.jpg)
 #
 urlimg: '/assets/img/'
-permalink:   /:categories/:title/
+urlitemimg: '/assets/items/'
+permalink: /:categories/:year/:month/:day/:title:output_ext
 
-year : 2022
 markdown : kramdown
+syntax_highlighter: rouge
+
+# This URL points directly to the images directory. It needs a slash at the end.
 exclude :
     - Gemfile
     - Gemfile.lock
+    - CNAME
     - LICENSE
     - README.md
     - pages/PagesOld
     - INSTALL.md
+    - screenshot.png
 include: ['_pages']
-
-#plugins:
-#  - jekyll-seo-tag
 
 sass:
   sass_dir: _sass
   style: compressed
+
+plugins:
+  - jekyll-seo-tag
