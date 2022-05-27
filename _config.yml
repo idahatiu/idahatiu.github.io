@@ -136,9 +136,9 @@ collections:
 ##############################################
 
 # This URL is the main address for absolute links. This will usually be blank.
-url: ''
+url: 
 # If this archive will be in a folder (kalanicraig.com/community-archive/) instead of in its own main site (idahatiu.github.io) add that folder name here. This will usually be blank.
-baseurl: ''
+baseurl: 
 
 # This URL points directly to the images directory. It needs a slash at the end.
 #
