@@ -11,9 +11,7 @@ The easiest way to use this theme is to fork the example site at [https://github
 [![A live preview][2]][1]
 
 [1]: https://idahatiu.github.io
-[2]: screenshot.png (live preview)
-
-![layout examples](screenshot-layouts.png)
+[2]: [screenshot.png](https://github.com/kalanicraig/community-archive-jekyll/raw/main/screenshot.png) (live preview)
 
 The `_config.yml` file contains settings for exhibit info, font, and color choices that affect the entire web site.
 
