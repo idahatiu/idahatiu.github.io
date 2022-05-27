@@ -3,7 +3,7 @@
 #---------------------
 # THEME. Leave Lines 4-6 alone.
 #---------------------
-#remote_theme: kalanicraig/community-archive-jekyll
+remote_theme: kalanicraig/community-archive-jekyll
 
 ##############################################
 # WHAT IS ALL THIS STUFF?
