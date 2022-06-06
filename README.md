@@ -60,7 +60,7 @@ Rather than making major changes to the main branch of this theme, we'll add new
 - [Institute for Digital Arts & Humanities](https://idah.indiana.edu), Indiana University–Bloomington
 - [Center for Research on Race, Ethnicity and Society](https://crres.indiana.edu), Indiana University–Bloomington
 - [ImaginX en Movimiento (IXeM)](https://www.instagram.com/ixemcollective/?hl=en)
-- [The Longtown/Greenville community](https://longtownhistory.github.io) and Dr. Jazma Sutton
+- The [Remembering Freedom](https://longtownhistory.github.io/) descendant community in Greenville and Longtown, Ohio, and Dr. Jazma Sutton
 
 ### Technical Resources
 
