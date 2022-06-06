@@ -33,13 +33,9 @@ Each item in the collection has an item ID (no spaces or punctuation) has one or
 
 | Name                                        | Description                                           |
 | ------------------------------------------- | ----------------------------------------------------- |
-| [Home Page with pull quote and right-aligned image][/] | A post with a pull-quote feature and right-aligned image. |
-| [Standard page][/quickstart] | A sample standard page with full-width centered headers using the "subheadline" style |
-| [Sample Blog-Post List Page][/blog] | A list of automatically-created image-based lists for each blog post in the "_posts" folder |
-| [Sample Collection Page][/collection] | A list of automatically-created image-based cards for each items in the "items" folder |
-| [Formatting and Syntax Highlighting Post][/2022/05/15/a-sample-blog-post.html] | Post displaying a wide range of simple formatting and code syntax highlighting. |
-
-Additional sample posts are available under [posts archive][year-archive] on the demo site. Source files for these (and the entire demo site) can be found in [`/docs`](docs).
+| [Home Page with pull quote and right-aligned image](/) | A post with a pull-quote feature and right-aligned image. |
+| [Sample Collection Page](/collection) | A list of automatically-created image-based cards for each items in the "items" folder |
+| [Sample stories Page](/stories) | A list of automatically-created image-based cards for each items in the "items" folder |
 
 ## Keep in mind
 
@@ -64,7 +60,7 @@ Rather than making major changes to the main branch of this theme, we'll add new
 - [Institute for Digital Arts & Humanities](https://idah.indiana.edu), Indiana University–Bloomington
 - [Center for Research on Race, Ethnicity and Society](https://crres.indiana.edu), Indiana University–Bloomington
 - [ImaginX en Movimiento (IXeM)](https://www.instagram.com/ixemcollective/?hl=en)
-- The Longtown/Greenville community and Dr. Jazma Sutton
+- [The Longtown/Greenville community](https://longtownhistory.github.io) and Dr. Jazma Sutton
 
 ### Technical Resources
 
