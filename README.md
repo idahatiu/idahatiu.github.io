@@ -2,11 +2,10 @@
 
 [![LICENSE](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-blue)](https://raw.githubusercontent.com/kalanicraig/community-archive/main/LICENSE)
 [![Jekyll](https://img.shields.io/badge/jekyll-%3E%3D%203.7-blue.svg)](https://jekyllrb.com/)
-[![Ruby gem](https://img.shields.io/gem/v/minimal-mistakes-jekyll.svg)](https://rubygems.org/gems/minimal-mistakes-jekyll)
 
 This repository provides a web site theme for communities in need of a free, easy-to-configure online exhibit.
 
-The easiest way to use this theme is to fork the example site at [https://github.com/idahatiu/idahatiu.github.io](https://github.com/idahatiu/idahatiu.github.io)
+The easiest way to use this theme is to fork the example site at [https://github.com/idahatiu/idahatiu.github.io](https://github.com/idahatiu/idahatiu.github.io).
 
 [![A live preview][2]][1]
 
@@ -42,6 +41,22 @@ Each item in the collection has an item ID (no spaces or punctuation) has one or
 
 Additional sample posts are available under [posts archive][year-archive] on the demo site. Source files for these (and the entire demo site) can be found in [`/docs`](docs).
 
+## Keep in mind
+
+When you copy this site and use it for your own collections, you'll be combining our technical expertise--the templates that help put images in the right place and set up headlines--with your photos and stories.
+
+We'll occasionally make updates to what's called the *main branch* of the [community-archive-jekyll](https://github.com/kalanicraig/community-archive-jekyll) theme. When we make those, our goal is to:
+- make those changes as infrequently as possible, so that you don't have to worry about checking your site all the time.
+- limit the types of changes we make to major errors, so that when we do make changes, it won't break your site.
+
+Using the "Fork" option in the top right-hand corner of this page will
+- help us keep track of who's using our theme so that we can predict what's likely to change.
+- help keep you conected to the version of the site that was current when you started your community archive.
+
+Rather than making major changes to the main branch of this theme, we'll add new features in release versions. If you want to update from the version that was current when you started your archive, you can change the "@XXXXXXXX" in the line of your `_config.yml` file to match the version with the features you like listed below:
+
+- [`@0.1.0`](https://github.com/kalanicraig/community-archive-jekyll/releases/tag/0.1.0) (31 May 2022): The first release with individual items listed on a collection page and items sorted by group on the stories page.
+
 ## Credits
 
 ### Partners
@@ -49,6 +64,7 @@ Additional sample posts are available under [posts archive][year-archive] on the
 - [Institute for Digital Arts & Humanities](https://idah.indiana.edu), Indiana University–Bloomington
 - [Center for Research on Race, Ethnicity and Society](https://crres.indiana.edu), Indiana University–Bloomington
 - [ImaginX en Movimiento (IXeM)](https://www.instagram.com/ixemcollective/?hl=en)
+- The Longtown/Greenville community and Dr. Jazma Sutton
 
 ### Technical Resources
 
