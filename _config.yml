@@ -1,5 +1,5 @@
 ##############################################
-# START YOUR CONFIGURATION HERE! For more info, visit http://community-archive.kalanicraig.com/quickstart
+# START YOUR CONFIGURATION HERE! For more info, visit https://community-archive.kalanicraig.com/quickstart
 #---------------------
 # THEME. Leave Lines 4-6 alone.
 #---------------------
@@ -75,7 +75,7 @@ google_g4_analytics_id:
 #---------------------
 
 # Choose the FONTS you'd like to use.
-# You can see these font choices in action at https://kalanicraig.com/community-archive/docs/
+# You can see these font choices in action at https://community-archive.kalanicraig.com/docs/
 # Uncomment the line for the font you like. Comment out all of the other lines.
 
 #fontchoice: archivonarrow # A narrow sans-serif font for headlines and body text
@@ -87,7 +87,7 @@ fontchoice: slab # A funky slab font with clean sans-serif accents
 #fontchoice: source # A modern serif font with clean sans-serif accents
 
 # Choose the COLORS you'd like to use.
-# You can see these color choices in action at https://kalanicraig.com/community-archive/docs/
+# You can see these color choices in action at https://community-archive.kalanicraig.com/docs/
 # Uncomment the line for the color you like. Comment out all of the other lines.
 
 #colorchoice: navy # Navy with bright teal and grey
