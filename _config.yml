@@ -4,6 +4,7 @@
 # THEME. Leave Lines 4-6 alone.
 #---------------------
 remote_theme: kalanicraig/community-archive-jekyll@0.1.0
+repository: 'idahatiu/idahatiu.github.io' # change this to your repository name
 
 ##############################################
 # WHAT IS ALL THIS STUFF?
@@ -160,6 +161,7 @@ exclude :
     - LICENSE
     - README.md
     - INSTALL.md
+    - vendor/bundle
 include: ['_pages']
 
 sass:
