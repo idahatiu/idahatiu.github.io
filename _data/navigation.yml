@@ -10,11 +10,6 @@
   excerpt:
   image:
 
-- title: Archive
-  url: /collection
-  excerpt:
-  image:
-
 - title: Map
   url: /map
   excerpt:
@@ -22,6 +17,11 @@
 
 - title: Network
   url: /network
+  excerpt:
+  image:
+
+- title: Archive
+  url: /collection
   excerpt:
   image:
 
