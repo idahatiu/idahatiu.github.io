@@ -4,7 +4,7 @@
 # THEME. Leave Lines 4-6 alone.
 #---------------------
 remote_theme: kalanicraig/community-archive-jekyll
-repository: 'idahatiu/idahatiu.github.io' # change this to your repository name
+repository: 'drew-heider/drew-heider.github.io' # change this to your repository name
 
 ##############################################
 # WHAT IS ALL THIS STUFF?
