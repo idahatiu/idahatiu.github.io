@@ -1,16 +1,36 @@
 # Site navigation links
 
-- title: Our Community
+- title: Home
   url: /
   excerpt:
   image:
 
-- title: Our Collection
+- title: Share Your Story
+  url: /submissions
+  excerpt:
+  image:
+
+- title: Archive
   url: /collection
   excerpt:
   image:
 
-- title: Our Stories
-  url: /stories
+- title: Map
+  url: /map
+  excerpt:
+  image:
+
+- title: Network
+  url: /network
+  excerpt:
+  image:
+
+- title: Blog
+  url: /blog
+  excerpt:
+  image:
+
+- title: About the Team
+  url: /about
   excerpt:
   image:
