@@ -3,7 +3,7 @@
 #---------------------
 # THEME. Leave Lines 4-6 alone.
 #---------------------
-remote_theme: kalanicraig/community-archive-jekyll
+remote_theme: kalanicraig/community-archive-jekyll@0.2.0
 repository: 'idahatiu/idahatiu.github.io' # change this to your repository name
 
 ##############################################
@@ -99,6 +99,21 @@ colorchoice: marigold # Near-black with marigold yellow
 #colorchoice: red # Black, crimson and grey
 #colorchoice: lavenderred # Purple-grey with orange-red
 #colorchoice: dusk # Dusky purple and olive green
+
+##############################################
+# METADATA CUSTOMIZATION
+#---------------------
+# DEPENDING ON YOUR GOALS, YOU MAY NEED TO CHANGE SOME THINGS
+##############################################
+
+# You can configure whether item metadata is displayed on all item pages here, as well as whether certain types of metadata are displayed.
+# Note that if you are using a custom set, you will need to modify it based on the instructions in metadata.yml.
+# The metadata_display setting changes how much object metadata is displayed on the item page.
+# To change display settings for particular object types, you may need to customize the appropriate layout in the _layouts directory.
+# Uncomment the line with the desired display settings for each variable. Comment out the other line. If you don't wish to display any metadata to the user, comment out both lines.
+
+metadatadisplay: full # Display all public-facing metadata for each item page.
+#metadatadisplay: core # Display only essential metadata for each item page, including title, contributor, creator, and creation date.
 
 ##############################################
 # ORGANIZING YOUR COLLECTION
