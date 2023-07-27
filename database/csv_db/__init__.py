@@ -153,27 +153,30 @@ def generateArtifactMd(artifactID):
     
     filename = f'CS_{artifactID}.md'
     properties = getArtifactProperties(artifactID)
-    markdown = """
----
+    markdown = """---
 layout: item
-format: photo
+format: {}
 title: {}
 creator: 
-    creator_1: {} 
-    creator_2: {}
+  creator_1:  {}
+  creator_2: {}
 contributor: {}
 creation_date: {}
 type: {}
-short_desc: {} 
+short_desc: {}
 group: 
 categories: {} 
-tags: {} 
+tags: [{}]
 team_member: 
 contributor_quote: 
 image_list: 
-alt_text_1: 
-alt_text_2: 
----""".format(properties[propIndex('title')],
+  alt_text_1: 
+  alt_text_2: 
+---
+## About This Artifact
+
+""".format(properties[propIndex('format')],
+           properties[propIndex('title')],
            properties[propIndex('author')],
            properties[propIndex('creator')],
            properties[propIndex('contributor')],
