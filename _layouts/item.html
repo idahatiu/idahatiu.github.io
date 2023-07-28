@@ -1,0 +1,79 @@
+---
+layout: page
+format: item
+---
+
+{% capture FileName %}{{ page.url | split: '/' | last }}{% endcapture %}
+{% capture ItemID %}{{ FileName | split: '.' | first }}{% endcapture %}
+<div class="grid-container">
+	<div class="grid-x grid-padding-x">
+		<div class="large-12 cell">
+			<!--page-->
+
+{% if item.photo %}
+	{% assign ItemPhotoResult = item.photo %}
+{% else %}
+	{% capture ItemImagePath %}{{ urlitemimg }}{{ ItemID }}{% endcapture %}
+	{% for static_file in site.static_files %}
+		{% if static_file.path contains ItemImagePath %}
+			{% capture ItemPhotoResult %}{{site.baseurl}}{{static_file.path}}{% endcapture %}
+		{% endif %}
+	{% endfor %}
+{% endif %}
+
+{% if page.embedurl %}
+<div class="responsive-embed">
+  <iframe width="420" height="315" src="{{ page.embedurl }}" frameborder="0" allowfullscreen></iframe>
+</div>
+{% elsif ItemPhotoResult %}
+<img class="article-image float-right thumbnail" src="{{ ItemPhotoResult }}" alt="{{ page.title }}""/>{% endif %}
+
+{% if page.contributor %}<h2>Object contributed by {{ page.contributor }}</h2>{% endif %}
+
+{% if page.contributorquote %}<q class="pull-quote">"{{ page.contributorquote }}"</q>{% endif %}
+
+{% if page.creator.creator_1 and page.creator.creator_2 %}
+<h4>Originally created by {{ page.creator.creator_1 }} and {{ page.creator.creator_2 }}</h4>
+{% else %}
+<h4>Originally created by {{ page.creator.creator_1 }}</h4>
+{% endif %}
+
+{% if page.externalurl %}<p>Find out more at {{ page.externalurl }}{% endif %}
+
+{% if page.embedurl %}<p>EMBED ME {{ page.embedurl }}{% endif %}
+
+{% if page.format == "media" %}<p>{{ page.embedurl }}{% endif %}
+
+{% if page.teammember %}<p>Assistance collecting this object by {{ page.teammember }}</p>{% endif %}
+
+{{ content }}
+
+{% capture ItemImagePath %}{{ urlitemimg }}{{ ItemID }}{% endcapture %}
+{% for static_file in site.static_files %}
+{% if static_file.path contains ItemImagePath %}
+{% unless static_file.path contains '_th' %}
+{% capture ItemPhotoResult %}{{site.baseurl}}{{static_file.path}}{% endcapture %}
+<img class="featured-image img-fluid" src="{{ ItemPhotoResult }}" alt="{{ page.title }}">
+{% endunless %}
+{% endif %}
+{% endfor %}
+
+{% if site.metadatadisplay == "full" or site.metadatadisplay == "core" %}
+<div class="element-set">
+<h2 id="Dublin Core">More about this item</h2>
+<p class="quiet">Dublin Core</p>
+<table class="stack">
+{% if site.metadatadisplay == "full" %}
+{% include _metadatadisplayfull.html %} 
+{% elsif site.metadatadisplay == "core" %}
+{% include _metadatadisplaycore.html %}
+{% endif %}
+</table>
+</div>
+{% endif %}
+
+<!-- {: .my-class } -->
+
+		</div>
+	</div>
+</div>

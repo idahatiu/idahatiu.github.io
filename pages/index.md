@@ -1,15 +1,11 @@
 ---
-title: IDAH Community Archiving Template
+title: Centennial Struggle
 layout: homepage
 permalink: /
-pullquote: "Archives could and should go beyond the logics of possession, whether of physical or digital records, to prioritize human centered-values that position record creators not only as subjects, but as active agents in their own liberation."
-quoteattribution: "Marisa Hicks-Alcaraz"
+pullquote:
+quoteattribution:
 ---
 
-The [IDAH@IU team](https://idah.indiana.edu) often gets requests to support archiving projects. This repository provides a starting point, a template for using simple Github Pages, done in partnership with
-- [ImaginX en Movimiento (IXeM)](https://www.instagram.com/ixemcollective/?hl=en) co-founded by Dr. Marisa Hicks-Alcaraz, the [Center for Research on Race, Ethnicity and Society](https://crres.indiana.edu), and the [Asian Culture Center](https://asianresource.indiana.edu) at Indiana University Bloomington
-- Dr. Jazma Sutton and the [Remembering Freedom](https://longtownhistory.github.io/) descendant community in Greenville and Longtown, Ohio, for the community-archive project that inspired this template.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. At risus viverra adipiscing at in tellus integer. Nulla malesuada pellentesque elit eget gravida cum. Vitae auctor eu augue ut lectus arcu. Sit amet massa vitae tortor condimentum lacinia quis vel eros. Euismod elementum nisi quis eleifend quam adipiscing. Habitasse platea dictumst vestibulum rhoncus est pellentesque. Cursus turpis massa tincidunt dui. Lorem mollis aliquam ut porttitor. Amet luctus venenatis lectus magna fringilla urna. Id neque aliquam vestibulum morbi blandit cursus risus at. Elementum pulvinar etiam non quam lacus suspendisse faucibus interdum posuere. Elit duis tristique sollicitudin nibh sit amet. Aliquet enim tortor at auctor urna. Morbi tempus iaculis urna id volutpat lacus laoreet non.
 
-Reach us:
-- [On our web site](https://idah.indiana.edu)
-- By email at idah at indiana.edu
+Sed elementum tempus egestas sed sed. Convallis convallis tellus id interdum velit laoreet id donec. Nunc sed id semper risus in hendrerit gravida rutrum quisque. Ultrices sagittis orci a scelerisque purus semper eget duis at. Habitant morbi tristique senectus et. Nullam ac tortor vitae purus. Pretium fusce id velit ut tortor pretium viverra. Enim diam vulputate ut pharetra sit. Enim tortor at auctor urna nunc id. Ut porttitor leo a diam sollicitudin tempor id. Morbi non arcu risus quis varius quam. Integer eget aliquet nibh praesent tristique magna. Habitasse platea dictumst quisque sagittis purus. Ullamcorper sit amet risus nullam. Quis varius quam quisque id.
