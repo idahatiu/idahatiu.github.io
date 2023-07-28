@@ -42,22 +42,22 @@ repository: 'idahatiu/idahatiu.github.io' # change this to your repository name
 #---------------------
 
 # Title of your website
-title: "IDAH@IU"
+title: "Centennial Struggle"
 
 # Subtitle of your website. Leave blank if you want to.
-subtitle: "An Archive of Our Community's Heirlooms"
+subtitle: "Experiencing and Resisting the Prison Industrial Complex in Colorado's Front Range"
 
 # A longer description of your site (max 150 words). Helps search engines find you.
 description: "Community Archiving Site"
 
 # These credits show up in the includes/_footer.html
 # Main author of the website.
-author: "IDAH@IU"
+author: "Drew Heiderscheidt"
 authorname : "Institute for Digital Arts and Humanities"
 sitelogo: "site_logo.jpg"
 
 # What year did you start up this community project?
-sitedate : 2022
+sitedate : 2023
 
 # Other community social media. Leave blank if you don't have these.
 email : "idah [at] iu.edu"
