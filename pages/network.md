@@ -7,7 +7,9 @@ permalink: /network
 ## Network Heading
 
   
-### Network visualization will go here!
+<div class="responsive-embed">
+  <iframe width="420" height="315" src="https://dighist.indiana.edu/networks/?dataset=dighistlab#/" frameborder="0" allowfullscreen=""></iframe>
+</div>
 
 
 
