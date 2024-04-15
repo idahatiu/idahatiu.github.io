@@ -54,6 +54,9 @@ description: "Community Archiving Site"
 # Main author of the website.
 author: "IDAH@IU"
 authorname : "Institute for Digital Arts and Humanities"
+
+# To change the photo on your homepage, open the assets folder in your Github repo, then open the img folder. Upload a photo there. Add only the name of the photo and its extension here. E.g. "alternate_logo.png")
+# Main author of the website.
 sitelogo: "site_logo.jpg"
 
 # What year did you start up this community project?
