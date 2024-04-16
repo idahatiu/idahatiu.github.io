@@ -139,6 +139,7 @@ collections:
 # MOST OF THESE THINGS DON'T NEED TO BE CHANGED.
 ##############################################
 
+
 # This URL is the main address for absolute links. This will usually be blank.
 url: 
 # If this archive will be in a folder (kalanicraig.com/community-archive/) instead of in its own main site (idahatiu.github.io) add that folder name here. This will usually be blank.
